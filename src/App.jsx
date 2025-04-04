@@ -1,17 +1,12 @@
-import './App.css'
+import './App.css';
+import Home from '../components/Home';
 
 function App() {
-
-
   return (
     <div>
-      <header className="App-header">
-        <h1>Aayush Raut</h1>
-        <p>Email: abc@gmail.com</p>
-        <p>Phone: +91 3692745627</p>
-      </header>
+      <Home /> 
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
